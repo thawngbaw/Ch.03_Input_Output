@@ -14,9 +14,7 @@ Sem Grade: 72   Final Exam: 100   Exam worth: 20%    Overall: 77.6
 '''
 a = float(input ("enter semester grade: "))
 b = float(input ("enter final grade: "))
-c = float (input("enter semester grade percentage: "))
-d = float(input ("final worth: "))
+d = float(input ("final worth: "))/100
 
-grading_p= a * (c / 100)
-grading_p1= b * (d / 100)
-print (grading_p+grading_p1)
+grading_p= a * (1-d) + b*(d)
+print (grading_p)
