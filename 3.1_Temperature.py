@@ -14,7 +14,8 @@ In: -40  Out: ??? Please tell me what this output is!
 '''
 
 fahrenheit= float (input ("fahrenheit: "))
-tem= (fahrenheit - 32) *5/9
-print(tem)
+
+cel= (fahrenheit - 32) *5/9
+print(cel)
 
 
