@@ -13,9 +13,9 @@ In: -40  Out: ??? Please tell me what this output is!
 -40.0
 '''
 
-fahrenheit= float (input ("fahrenheit: "))
+fahrenheit = float(input("fahrenheit: "))
 
-cel= (fahrenheit - 32) *5/9
+cel = (fahrenheit - 32) * 5/9
 print(cel)
 
 
